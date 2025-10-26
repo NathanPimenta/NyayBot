@@ -1,0 +1,18 @@
+#Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+env/
+
+# Data / Models
+data/vector_store/
+*.pt
+*.bin
+*.onnx
+
+# OS
+.DS_Store
+Thumbs.db
+nyay/

@@ -1,0 +1,18 @@
+# Core Web Framework
+fastapi
+uvicorn[standard]
+
+# Core NLP / ML
+torch
+transformers
+sentence-transformers
+
+# Vector Storage & Retrieval
+faiss-cpu
+
+# Document Loading & Processing
+langchain
+pypdf
+langchain-community
+sentencepiece
+langchain-text-splitters
