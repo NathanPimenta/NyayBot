@@ -1,18 +1,70 @@
-#Python
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
-.env
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
 venv/
 env/
+ENV/
+.venv
 
-# Data / Models
-data/vector_store/
-*.pt
-*.bin
-*.onnx
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data directories (keep structure, ignore content)
+data/legal_docs/*.pdf
+data/legal_docs/*.txt
+data/vector_store/*.bin
+data/vector_store/*.pkl
+
+# Models cache
+models/
+.cache/
+transformers_cache/
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
 
 # OS
 .DS_Store
 Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Docker
+docker-compose.override.yml
 nyay/
